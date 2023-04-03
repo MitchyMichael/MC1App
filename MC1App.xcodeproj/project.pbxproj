@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */; };
-		FCEB33E929DAADEE002045B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB33E829DAADEE002045B1 /* ContentView.swift */; };
 		FCEB33EB29DAADEF002045B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB33EA29DAADEF002045B1 /* Assets.xcassets */; };
 		FCEB33EE29DAADEF002045B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */; };
+		FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB340329DAB50C002045B1 /* HomeView.swift */; };
+		FCEB341329DAC441002045B1 /* Luminari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FCEB33E329DAADEE002045B1 /* MC1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1AppApp.swift; sourceTree = "<group>"; };
-		FCEB33E829DAADEE002045B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCEB33EA29DAADEF002045B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCEB340329DAB50C002045B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../../../../../Downloads/Luminari-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		FCEB33E529DAADEE002045B1 /* MC1App */ = {
 			isa = PBXGroup;
 			children = (
+				FCEB341129DAC433002045B1 /* Fonts */,
 				FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */,
-				FCEB33E829DAADEE002045B1 /* ContentView.swift */,
+				FCEB340329DAB50C002045B1 /* HomeView.swift */,
 				FCEB33EA29DAADEF002045B1 /* Assets.xcassets */,
 				FCEB33EC29DAADEF002045B1 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCEB341129DAC433002045B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				FCEB33EE29DAADEF002045B1 /* Preview Assets.xcassets in Resources */,
 				FCEB33EB29DAADEF002045B1 /* Assets.xcassets in Resources */,
+				FCEB341329DAC441002045B1 /* Luminari-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEB33E929DAADEE002045B1 /* ContentView.swift in Sources */,
+				FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */,
 				FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
