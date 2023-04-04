@@ -14,8 +14,8 @@ struct HomeView: View {
             ZStack{
                 Image("townone")
                     .resizable()
-                    .ignoresSafeArea()
                     .scaledToFill()
+                    .ignoresSafeArea()
                 
                 // Tap Anywhere To Continue
                     .onTapGesture {
@@ -47,6 +47,7 @@ struct HomeView: View {
                                     .shadow(radius: 3)
                             })
                         }
+                        
                         Spacer()
                         
                         // Setting Button
@@ -60,42 +61,48 @@ struct HomeView: View {
                         })
                         
                     }
-                    .padding(.top, 20.0)
+                    .padding(.top, 60.0)
                     .padding(.horizontal, 36.0)
                     
-                    HStack{
-                        VStack(alignment: .leading){
-                            Text("Eria")
-                                .font(.custom("Snell Roundhand", size:70))
-                                .fontWeight(.bold)
-                                .foregroundColor(Color.white)
-                                .shadow(radius: 5)
+                    VStack{
+                        Text("Eria")
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 60)
+                            .font(.custom("Snell Roundhand", size:80))
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .shadow(radius: 5)
+                            .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.0, opacity: 0.2))
                             
-                            Text("Limitless Adventure")
-                                .font(.custom("Futura", size:20))
-                                .fontWeight(.bold)
-                                .foregroundColor(Color.white)
-                                .shadow(radius: 5)
-                        }
-                        
-                        .padding([.top, .leading], 58.0)
-                        .padding(.bottom, 250.0)
-                        
-                        Spacer()
+                        Text("Limitless Adventure")
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 60)
+                            .padding(.bottom, 10)
+                            .font(.custom("Futura", size:20))
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .shadow(radius: 5)
+                            .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.0, opacity: 0.2))
                     }
                     
+                    .padding(.top, 58.0)
+                    .padding(.bottom, 250.0)
+                    
                     Spacer()
+                    
                     Text("Tap Anywhere To Start")
                         .font(.custom("Futura", size:20))
                         .frame(width: UIScreen.main.bounds.width, height: 50)
                         .foregroundColor(.white)
-                        .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.0, opacity: 0.3))
+                        .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.0, opacity: 0.2))
                     
                     Spacer()
                     
                 }
             }
         }
+        .accentColor(Color(.white))
+        .preferredColorScheme(.dark)
     }
 }
 

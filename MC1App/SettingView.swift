@@ -9,12 +9,19 @@ import SwiftUI
 
 struct SettingView: View {
     var body: some View {
-        ZStack{
-            VStack{
-                Text("This is Setting View")
+        NavigationView {
+            ZStack{
+                Image("towntwo")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+                    
+                VStack{
+                    Text("This is Setting View")
+                }
             }
         }
-        .ignoresSafeArea()
+        
     }
 }
 
