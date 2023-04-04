@@ -12,6 +12,10 @@
 		FCEB33EE29DAADEF002045B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */; };
 		FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB340329DAB50C002045B1 /* HomeView.swift */; };
 		FCEB341329DAC441002045B1 /* Luminari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */; };
+		FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341429DBA8A3002045B1 /* SettingView.swift */; };
+		FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341629DBD7E5002045B1 /* ProfileView.swift */; };
+		FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341829DBD7F0002045B1 /* GalleryView.swift */; };
+		FCEB341B29DBEE41002045B1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341A29DBEE41002045B1 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCEB340329DAB50C002045B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../../../../../Downloads/Luminari-Regular.ttf"; sourceTree = "<group>"; };
+		FCEB341429DBA8A3002045B1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		FCEB341629DBD7E5002045B1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FCEB341829DBD7F0002045B1 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		FCEB341A29DBEE41002045B1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				FCEB341129DAC433002045B1 /* Fonts */,
 				FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */,
 				FCEB340329DAB50C002045B1 /* HomeView.swift */,
+				FCEB341429DBA8A3002045B1 /* SettingView.swift */,
+				FCEB341629DBD7E5002045B1 /* ProfileView.swift */,
+				FCEB341829DBD7F0002045B1 /* GalleryView.swift */,
+				FCEB341A29DBEE41002045B1 /* GameView.swift */,
 				FCEB33EA29DAADEF002045B1 /* Assets.xcassets */,
 				FCEB33EC29DAADEF002045B1 /* Preview Content */,
 			);
@@ -149,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */,
+				FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */,
 				FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */,
 				FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */,
+				FCEB341B29DBEE41002045B1 /* GameView.swift in Sources */,
+				FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
