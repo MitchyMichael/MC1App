@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3339BE29DE574F000C6C95 /* InputCharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */; };
+		FC3339C029DEBA2A000C6C95 /* Naration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339BF29DEBA2A000C6C95 /* Naration.swift */; };
+		FC97385229DD49AA0092D89B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385129DD49AA0092D89B /* AboutView.swift */; };
+		FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385329DD50DC0092D89B /* PopUpResetView.swift */; };
 		FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */; };
 		FCEB33EB29DAADEF002045B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB33EA29DAADEF002045B1 /* Assets.xcassets */; };
 		FCEB33EE29DAADEF002045B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */; };
 		FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB340329DAB50C002045B1 /* HomeView.swift */; };
-		FCEB341329DAC441002045B1 /* Luminari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */; };
 		FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341429DBA8A3002045B1 /* SettingView.swift */; };
 		FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341629DBD7E5002045B1 /* ProfileView.swift */; };
 		FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB341829DBD7F0002045B1 /* GalleryView.swift */; };
@@ -19,12 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCharacterDetailsView.swift; sourceTree = "<group>"; };
+		FC3339BF29DEBA2A000C6C95 /* Naration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration.swift; sourceTree = "<group>"; };
+		FC97385129DD49AA0092D89B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FC97385329DD50DC0092D89B /* PopUpResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpResetView.swift; sourceTree = "<group>"; };
 		FCEB33E329DAADEE002045B1 /* MC1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1AppApp.swift; sourceTree = "<group>"; };
 		FCEB33EA29DAADEF002045B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCEB340329DAB50C002045B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Luminari-Regular.ttf"; path = "../../../../../../Downloads/Luminari-Regular.ttf"; sourceTree = "<group>"; };
 		FCEB341429DBA8A3002045B1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		FCEB341629DBD7E5002045B1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FCEB341829DBD7F0002045B1 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
@@ -61,13 +67,16 @@
 		FCEB33E529DAADEE002045B1 /* MC1App */ = {
 			isa = PBXGroup;
 			children = (
-				FCEB341129DAC433002045B1 /* Fonts */,
 				FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */,
 				FCEB340329DAB50C002045B1 /* HomeView.swift */,
+				FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */,
 				FCEB341429DBA8A3002045B1 /* SettingView.swift */,
+				FC97385129DD49AA0092D89B /* AboutView.swift */,
 				FCEB341629DBD7E5002045B1 /* ProfileView.swift */,
 				FCEB341829DBD7F0002045B1 /* GalleryView.swift */,
 				FCEB341A29DBEE41002045B1 /* GameView.swift */,
+				FC97385329DD50DC0092D89B /* PopUpResetView.swift */,
+				FC3339BF29DEBA2A000C6C95 /* Naration.swift */,
 				FCEB33EA29DAADEF002045B1 /* Assets.xcassets */,
 				FCEB33EC29DAADEF002045B1 /* Preview Content */,
 			);
@@ -80,14 +89,6 @@
 				FCEB33ED29DAADEF002045B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FCEB341129DAC433002045B1 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				FCEB341229DAC441002045B1 /* Luminari-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +151,6 @@
 			files = (
 				FCEB33EE29DAADEF002045B1 /* Preview Assets.xcassets in Resources */,
 				FCEB33EB29DAADEF002045B1 /* Assets.xcassets in Resources */,
-				FCEB341329DAC441002045B1 /* Luminari-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */,
+				FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */,
+				FC97385229DD49AA0092D89B /* AboutView.swift in Sources */,
 				FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */,
 				FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */,
+				FC3339C029DEBA2A000C6C95 /* Naration.swift in Sources */,
 				FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */,
 				FCEB341B29DBEE41002045B1 /* GameView.swift in Sources */,
+				FC3339BE29DE574F000C6C95 /* InputCharacterDetailsView.swift in Sources */,
 				FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

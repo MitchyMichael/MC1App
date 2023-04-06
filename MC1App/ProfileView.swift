@@ -26,10 +26,9 @@ struct ProfileView: View {
                             .font(.custom("Snell Roundhand", size:40))
                             .fontWeight(.bold)
                         Text("")
-                        Text("Character Name")
-                        Text("Character Birth Date")
-                        Text("Character Zodiac")
-                        Text("Character Description")
+                        Text("Your Name")
+                        Text("Your Zodiac")
+                      
                         
                     }
                     .padding(.vertical, 20.0)
