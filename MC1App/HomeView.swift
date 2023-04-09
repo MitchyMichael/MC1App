@@ -10,8 +10,6 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         
-        
-        
         NavigationView {
             ZStack{
                 Image("townone")
@@ -57,11 +55,13 @@ struct HomeView: View {
                     Spacer()
                 }
                 
-                NavigationLink(destination: GameView(), label: {
+                Button{
+                    let newView = GameView()
+                    UIApplication.shared.windows.first?.rootViewController = UIHostingController(rootView: newView)
+                } label: {
                     Text("")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                      
-                })
+                }
                 
                 VStack{
                     HStack(alignment: .top){
@@ -116,6 +116,7 @@ struct HomeView: View {
         }
         .accentColor(Color(.white))
         .preferredColorScheme(.dark)
+        
     }
 }
 

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		FC3339BE29DE574F000C6C95 /* InputCharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */; };
 		FC3339C029DEBA2A000C6C95 /* Naration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339BF29DEBA2A000C6C95 /* Naration.swift */; };
+		FC3339C629E2B96D000C6C95 /* GameViewTwo_Monologue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339C529E2B96D000C6C95 /* GameViewTwo_Monologue.swift */; };
+		FC3339C829E2B982000C6C95 /* NarationTwo_Monologue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339C729E2B982000C6C95 /* NarationTwo_Monologue.swift */; };
+		FC3339CC29E2C886000C6C95 /* NarationThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339CB29E2C886000C6C95 /* NarationThree.swift */; };
+		FC3339CE29E2C8F2000C6C95 /* NarationThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339CD29E2C8F2000C6C95 /* NarationThreeView.swift */; };
+		FC3339D029E2CEB4000C6C95 /* NarationFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339CF29E2CEB4000C6C95 /* NarationFour.swift */; };
+		FC3339D229E2CF55000C6C95 /* NarationFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339D129E2CF55000C6C95 /* NarationFourView.swift */; };
 		FC97385229DD49AA0092D89B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385129DD49AA0092D89B /* AboutView.swift */; };
 		FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385329DD50DC0092D89B /* PopUpResetView.swift */; };
 		FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */; };
@@ -24,6 +30,12 @@
 /* Begin PBXFileReference section */
 		FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCharacterDetailsView.swift; sourceTree = "<group>"; };
 		FC3339BF29DEBA2A000C6C95 /* Naration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration.swift; sourceTree = "<group>"; };
+		FC3339C529E2B96D000C6C95 /* GameViewTwo_Monologue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewTwo_Monologue.swift; sourceTree = "<group>"; };
+		FC3339C729E2B982000C6C95 /* NarationTwo_Monologue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationTwo_Monologue.swift; sourceTree = "<group>"; };
+		FC3339CB29E2C886000C6C95 /* NarationThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationThree.swift; sourceTree = "<group>"; };
+		FC3339CD29E2C8F2000C6C95 /* NarationThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationThreeView.swift; sourceTree = "<group>"; };
+		FC3339CF29E2CEB4000C6C95 /* NarationFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationFour.swift; sourceTree = "<group>"; };
+		FC3339D129E2CF55000C6C95 /* NarationFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationFourView.swift; sourceTree = "<group>"; };
 		FC97385129DD49AA0092D89B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		FC97385329DD50DC0092D89B /* PopUpResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpResetView.swift; sourceTree = "<group>"; };
 		FCEB33E329DAADEE002045B1 /* MC1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +60,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC3339C329E2B8FD000C6C95 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB341A29DBEE41002045B1 /* GameView.swift */,
+				FC3339C529E2B96D000C6C95 /* GameViewTwo_Monologue.swift */,
+				FC3339CD29E2C8F2000C6C95 /* NarationThreeView.swift */,
+				FC3339D129E2CF55000C6C95 /* NarationFourView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		FC3339C429E2B913000C6C95 /* Naration */ = {
+			isa = PBXGroup;
+			children = (
+				FC3339BF29DEBA2A000C6C95 /* Naration.swift */,
+				FC3339C729E2B982000C6C95 /* NarationTwo_Monologue.swift */,
+				FC3339CB29E2C886000C6C95 /* NarationThree.swift */,
+				FC3339CF29E2CEB4000C6C95 /* NarationFour.swift */,
+			);
+			path = Naration;
+			sourceTree = "<group>";
+		};
 		FCEB33DA29DAADEE002045B1 = {
 			isa = PBXGroup;
 			children = (
@@ -74,10 +108,10 @@
 				FC97385129DD49AA0092D89B /* AboutView.swift */,
 				FCEB341629DBD7E5002045B1 /* ProfileView.swift */,
 				FCEB341829DBD7F0002045B1 /* GalleryView.swift */,
-				FCEB341A29DBEE41002045B1 /* GameView.swift */,
 				FC97385329DD50DC0092D89B /* PopUpResetView.swift */,
-				FC3339BF29DEBA2A000C6C95 /* Naration.swift */,
+				FC3339C329E2B8FD000C6C95 /* GameView */,
 				FCEB33EA29DAADEF002045B1 /* Assets.xcassets */,
+				FC3339C429E2B913000C6C95 /* Naration */,
 				FCEB33EC29DAADEF002045B1 /* Preview Content */,
 			);
 			path = MC1App;
@@ -161,14 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3339C829E2B982000C6C95 /* NarationTwo_Monologue.swift in Sources */,
 				FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */,
 				FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */,
+				FC3339CC29E2C886000C6C95 /* NarationThree.swift in Sources */,
+				FC3339D229E2CF55000C6C95 /* NarationFourView.swift in Sources */,
 				FC97385229DD49AA0092D89B /* AboutView.swift in Sources */,
 				FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */,
+				FC3339C629E2B96D000C6C95 /* GameViewTwo_Monologue.swift in Sources */,
 				FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */,
 				FC3339C029DEBA2A000C6C95 /* Naration.swift in Sources */,
 				FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */,
+				FC3339D029E2CEB4000C6C95 /* NarationFour.swift in Sources */,
 				FCEB341B29DBEE41002045B1 /* GameView.swift in Sources */,
+				FC3339CE29E2C8F2000C6C95 /* NarationThreeView.swift in Sources */,
 				FC3339BE29DE574F000C6C95 /* InputCharacterDetailsView.swift in Sources */,
 				FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */,
 			);
