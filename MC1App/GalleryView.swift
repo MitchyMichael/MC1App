@@ -147,7 +147,7 @@ struct GalleryView: View {
                                         Image("bluehairboy")
                                             .resizable()
                                             .frame(width: 100, height: 170)
-                                        Text("Bhram")
+                                        Text("Brahm")
                                             .foregroundColor(.white)
                                             .font(.custom("Snell Roundhand", size:20))
                                             .fontWeight(.bold)

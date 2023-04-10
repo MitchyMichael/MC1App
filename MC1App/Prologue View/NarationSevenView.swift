@@ -1,5 +1,5 @@
 //
-//  NarationFourView.swift
+//  NarationSevenView.swift
 //  MC1App
 //
 //  Created by Michael Wijaya Sutrisna on 09/04/23.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct NarationFourView: View {
+struct NarationSevenView: View {
     @State private var isActive = false
     @State private var counter = 0
     
     var body: some View {
         NavigationView{
-            let story = NarationFour()
+            let story = NarationSeven()
             
             VStack{
                 if isActive{
@@ -26,7 +26,7 @@ struct NarationFourView: View {
                         
                     } label: {
                         ZStack{
-                            Image("schoolone")
+                            Image("toplessboy")
                                 .resizable()
                                 .scaledToFill()
                                 .ignoresSafeArea()
@@ -36,7 +36,7 @@ struct NarationFourView: View {
                                 
                                 VStack{
                                     
-                                    Text("???")
+                                    Text("-- Adolf --")
                                         .foregroundColor(.white)
                                     
                                     Text(story.Story[counter])
@@ -72,8 +72,8 @@ struct NarationFourView: View {
     }
 }
 
-struct NarationFourView_Previews: PreviewProvider {
+struct NarationSevenView_Previews: PreviewProvider {
     static var previews: some View {
-        NarationFourView()
+        NarationSevenView()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  GameViewTwo_Monologue.swift
+//  NarationSixView.swift
 //  MC1App
 //
 //  Created by Michael Wijaya Sutrisna on 09/04/23.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct GameViewTwo_Monologue: View {
+struct NarationSixView: View {
     @State private var isActive = false
     @State private var counter = 0
     
     var body: some View {
         NavigationView{
-            let story = NarationTwo_Monologue()
+            let story = NarationSix()
             
             VStack{
                 if isActive{
-                    NarationThreeView()
+                    NarationSevenView()
                     
                 } else {
                     
@@ -26,7 +26,7 @@ struct GameViewTwo_Monologue: View {
                         
                     } label: {
                         ZStack{
-                            Image("schoolone")
+                            Image("bluehairboy")
                                 .resizable()
                                 .scaledToFill()
                                 .ignoresSafeArea()
@@ -36,7 +36,7 @@ struct GameViewTwo_Monologue: View {
                                 
                                 VStack{
                                     
-                                    Text("My Character")
+                                    Text("-- Brahm --")
                                         .foregroundColor(.white)
                                     
                                     Text(story.Story[counter])
@@ -62,7 +62,7 @@ struct GameViewTwo_Monologue: View {
     }
     
     func Counter(){
-        if counter >= 1{
+        if counter >= 0{
             isActive = true
             counter = 0
         } else {
@@ -72,8 +72,8 @@ struct GameViewTwo_Monologue: View {
     }
 }
 
-struct GameViewTwo_Monologue_Previews: PreviewProvider {
+struct NarationSixView_Previews: PreviewProvider {
     static var previews: some View {
-        GameViewTwo_Monologue()
+        NarationSixView()
     }
 }
