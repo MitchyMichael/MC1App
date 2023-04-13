@@ -21,6 +21,81 @@
 		FC3339DA29E2DC70000C6C95 /* NarationSixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339D929E2DC70000C6C95 /* NarationSixView.swift */; };
 		FC3339DC29E2DD19000C6C95 /* NarationSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339DB29E2DD19000C6C95 /* NarationSeven.swift */; };
 		FC3339DE29E2DD40000C6C95 /* NarationSevenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339DD29E2DD40000C6C95 /* NarationSevenView.swift */; };
+		FC3339E029E3DD5E000C6C95 /* NarationEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339DF29E3DD5E000C6C95 /* NarationEight.swift */; };
+		FC3339E229E3DDF5000C6C95 /* NarationEightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339E129E3DDF5000C6C95 /* NarationEightView.swift */; };
+		FC3339E429E5390C000C6C95 /* NarationNineChoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339E329E5390C000C6C95 /* NarationNineChoise.swift */; };
+		FC3339E629E53950000C6C95 /* NarationNineChoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339E529E53950000C6C95 /* NarationNineChoiseView.swift */; };
+		FC3339E829E53CB0000C6C95 /* Naration10_1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339E729E53CAF000C6C95 /* Naration10_1View.swift */; };
+		FC3339EA29E53CB8000C6C95 /* Naration10_2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339E929E53CB8000C6C95 /* Naration10_2View.swift */; };
+		FC3339F029E53E66000C6C95 /* Naration10_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339EF29E53E66000C6C95 /* Naration10_1.swift */; };
+		FC3339F229E53E76000C6C95 /* Naration10_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339F129E53E76000C6C95 /* Naration10_2.swift */; };
+		FC3339F629E53EFC000C6C95 /* Naration11_1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339F529E53EFC000C6C95 /* Naration11_1View.swift */; };
+		FC3339FA29E53F2C000C6C95 /* Naration11_2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339F929E53F2C000C6C95 /* Naration11_2View.swift */; };
+		FC3339FE29E53FD0000C6C95 /* Naration71View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339FD29E53FD0000C6C95 /* Naration71View.swift */; };
+		FC333A0029E53FEB000C6C95 /* Naration71.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3339FF29E53FEB000C6C95 /* Naration71.swift */; };
+		FC333A0229E540BD000C6C95 /* Naration72View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0129E540BD000C6C95 /* Naration72View.swift */; };
+		FC333A0429E5413C000C6C95 /* Naration72.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0329E5413C000C6C95 /* Naration72.swift */; };
+		FC333A0629E5420E000C6C95 /* Naration73View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0529E5420E000C6C95 /* Naration73View.swift */; };
+		FC333A0829E5423F000C6C95 /* Naration73.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0729E5423F000C6C95 /* Naration73.swift */; };
+		FC333A0A29E54336000C6C95 /* Naration11_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0929E54336000C6C95 /* Naration11_1.swift */; };
+		FC333A0C29E5433E000C6C95 /* Naration11_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0B29E5433E000C6C95 /* Naration11_2.swift */; };
+		FC333A0E29E5443A000C6C95 /* Naration12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0D29E5443A000C6C95 /* Naration12View.swift */; };
+		FC333A1029E5445B000C6C95 /* Naration12.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0F29E5445B000C6C95 /* Naration12.swift */; };
+		FC333A1229E54512000C6C95 /* Naration13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1129E54512000C6C95 /* Naration13View.swift */; };
+		FC333A1429E54521000C6C95 /* Naration13.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1329E54521000C6C95 /* Naration13.swift */; };
+		FC333A1629E54574000C6C95 /* Naration14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1529E54574000C6C95 /* Naration14View.swift */; };
+		FC333A1829E54581000C6C95 /* Naration14.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1729E54581000C6C95 /* Naration14.swift */; };
+		FC333A1A29E546D4000C6C95 /* Naration15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1929E546D4000C6C95 /* Naration15View.swift */; };
+		FC333A1C29E546DD000C6C95 /* Naration15.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1B29E546DD000C6C95 /* Naration15.swift */; };
+		FC333A1E29E54AEC000C6C95 /* Naration16View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1D29E54AEC000C6C95 /* Naration16View.swift */; };
+		FC333A2029E54B0E000C6C95 /* Naration16.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A1F29E54B0E000C6C95 /* Naration16.swift */; };
+		FC333A2229E54EBA000C6C95 /* Naration17View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A2129E54EBA000C6C95 /* Naration17View.swift */; };
+		FC333A2429E54EC2000C6C95 /* Naration17.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A2329E54EC2000C6C95 /* Naration17.swift */; };
+		FC333A2629E55607000C6C95 /* Naration18.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A2529E55607000C6C95 /* Naration18.swift */; };
+		FC333A2829E55611000C6C95 /* Naration18View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A2729E55611000C6C95 /* Naration18View.swift */; };
+		FC333A2F29E5586B000C6C95 /* ToiletNaration1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A2E29E5586B000C6C95 /* ToiletNaration1.swift */; };
+		FC333A3129E62F8B000C6C95 /* ToiletNaration2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3029E62F8B000C6C95 /* ToiletNaration2.swift */; };
+		FC333A3329E63050000C6C95 /* ToiletNaration3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3229E63050000C6C95 /* ToiletNaration3.swift */; };
+		FC333A3529E6307F000C6C95 /* ToiletNaration4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3429E6307F000C6C95 /* ToiletNaration4.swift */; };
+		FC333A3729E630E7000C6C95 /* ToiletNaration5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3629E630E7000C6C95 /* ToiletNaration5.swift */; };
+		FC333A3929E6312F000C6C95 /* ToiletNaration6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3829E6312F000C6C95 /* ToiletNaration6.swift */; };
+		FC333A3B29E631E7000C6C95 /* ToiletNaration7.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3A29E631E7000C6C95 /* ToiletNaration7.swift */; };
+		FC333A3D29E6321B000C6C95 /* ToiletNaration8.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3C29E6321B000C6C95 /* ToiletNaration8.swift */; };
+		FC333A3F29E6329C000C6C95 /* ToiletNaration9.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A3E29E6329C000C6C95 /* ToiletNaration9.swift */; };
+		FC333A4129E632D6000C6C95 /* ToiletNaration10.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4029E632D6000C6C95 /* ToiletNaration10.swift */; };
+		FC333A4329E63403000C6C95 /* ToiletNaration11.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4229E63403000C6C95 /* ToiletNaration11.swift */; };
+		FC333A4529E63437000C6C95 /* ToiletNaration12.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4429E63437000C6C95 /* ToiletNaration12.swift */; };
+		FC333A4729E63462000C6C95 /* ToiletNaration13.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4629E63462000C6C95 /* ToiletNaration13.swift */; };
+		FC333A4929E634A8000C6C95 /* ToiletNaration14.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4829E634A8000C6C95 /* ToiletNaration14.swift */; };
+		FC333A4B29E634E3000C6C95 /* ToiletNaration15.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A4A29E634E3000C6C95 /* ToiletNaration15.swift */; };
+		FC333A5129E63547000C6C95 /* MeetingMiriel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5029E63547000C6C95 /* MeetingMiriel1.swift */; };
+		FC333A5329E635AF000C6C95 /* MeetingMiriel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5229E635AF000C6C95 /* MeetingMiriel2.swift */; };
+		FC333A5529E63611000C6C95 /* MeetingMiriel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5429E63611000C6C95 /* MeetingMiriel3.swift */; };
+		FC333A5729E63649000C6C95 /* MeetingMiriel4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5629E63649000C6C95 /* MeetingMiriel4.swift */; };
+		FC333A5929E63664000C6C95 /* MeetingMiriel5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5829E63664000C6C95 /* MeetingMiriel5.swift */; };
+		FC333A5B29E6367D000C6C95 /* MeetingMiriel6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5A29E6367D000C6C95 /* MeetingMiriel6.swift */; };
+		FC333A6029E63725000C6C95 /* ToiletNaration1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A5F29E63725000C6C95 /* ToiletNaration1View.swift */; };
+		FC333A6229E63894000C6C95 /* ToiletNaration2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6129E63894000C6C95 /* ToiletNaration2View.swift */; };
+		FC333A6429E63903000C6C95 /* ToiletNaration3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6329E63903000C6C95 /* ToiletNaration3View.swift */; };
+		FC333A6629E63DF0000C6C95 /* ToiletNaration4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6529E63DF0000C6C95 /* ToiletNaration4View.swift */; };
+		FC333A6829E63E26000C6C95 /* ToiletNaration5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6729E63E26000C6C95 /* ToiletNaration5View.swift */; };
+		FC333A6A29E63FE9000C6C95 /* ToiletNaration6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6929E63FE9000C6C95 /* ToiletNaration6View.swift */; };
+		FC333A6E29E64041000C6C95 /* ToiletNaration7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6D29E64041000C6C95 /* ToiletNaration7View.swift */; };
+		FC333A7029E640EE000C6C95 /* ToiletNaration8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A6F29E640EE000C6C95 /* ToiletNaration8View.swift */; };
+		FC333A7229E64158000C6C95 /* ToiletNaration9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7129E64158000C6C95 /* ToiletNaration9View.swift */; };
+		FC333A7429E64185000C6C95 /* ToiletNaration10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7329E64185000C6C95 /* ToiletNaration10View.swift */; };
+		FC333A7629E64213000C6C95 /* ToiletNaration11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7529E64213000C6C95 /* ToiletNaration11View.swift */; };
+		FC333A7829E642C2000C6C95 /* ToiletNaration12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7729E642C2000C6C95 /* ToiletNaration12View.swift */; };
+		FC333A7A29E64325000C6C95 /* ToiletNaration13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7929E64325000C6C95 /* ToiletNaration13View.swift */; };
+		FC333A7C29E6437C000C6C95 /* ToiletNaration14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7B29E6437C000C6C95 /* ToiletNaration14View.swift */; };
+		FC333A7E29E643A9000C6C95 /* ToiletNaration15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7D29E643A9000C6C95 /* ToiletNaration15View.swift */; };
+		FC333A8029E64451000C6C95 /* MeetingMiriel1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A7F29E64451000C6C95 /* MeetingMiriel1View.swift */; };
+		FC333A8229E64499000C6C95 /* MeetingMiriel2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8129E64499000C6C95 /* MeetingMiriel2View.swift */; };
+		FC333A8429E64BBC000C6C95 /* MeetingMiriel3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8329E64BBC000C6C95 /* MeetingMiriel3View.swift */; };
+		FC333A8629E64C0B000C6C95 /* MeetingMiriel4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8529E64C0B000C6C95 /* MeetingMiriel4View.swift */; };
+		FC333A8829E64C40000C6C95 /* MeetingMiriel5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8729E64C40000C6C95 /* MeetingMiriel5View.swift */; };
+		FC333A8A29E64C83000C6C95 /* MeetingMiriel6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8929E64C83000C6C95 /* MeetingMiriel6View.swift */; };
+		FC333A8C29E64CD5000C6C95 /* ToBeContiuedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC333A8B29E64CD5000C6C95 /* ToBeContiuedView.swift */; };
 		FC97385229DD49AA0092D89B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385129DD49AA0092D89B /* AboutView.swift */; };
 		FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97385329DD50DC0092D89B /* PopUpResetView.swift */; };
 		FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */; };
@@ -48,6 +123,81 @@
 		FC3339D929E2DC70000C6C95 /* NarationSixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationSixView.swift; sourceTree = "<group>"; };
 		FC3339DB29E2DD19000C6C95 /* NarationSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationSeven.swift; sourceTree = "<group>"; };
 		FC3339DD29E2DD40000C6C95 /* NarationSevenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationSevenView.swift; sourceTree = "<group>"; };
+		FC3339DF29E3DD5E000C6C95 /* NarationEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationEight.swift; sourceTree = "<group>"; };
+		FC3339E129E3DDF5000C6C95 /* NarationEightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationEightView.swift; sourceTree = "<group>"; };
+		FC3339E329E5390C000C6C95 /* NarationNineChoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationNineChoise.swift; sourceTree = "<group>"; };
+		FC3339E529E53950000C6C95 /* NarationNineChoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarationNineChoiseView.swift; sourceTree = "<group>"; };
+		FC3339E729E53CAF000C6C95 /* Naration10_1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration10_1View.swift; sourceTree = "<group>"; };
+		FC3339E929E53CB8000C6C95 /* Naration10_2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration10_2View.swift; sourceTree = "<group>"; };
+		FC3339EF29E53E66000C6C95 /* Naration10_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration10_1.swift; sourceTree = "<group>"; };
+		FC3339F129E53E76000C6C95 /* Naration10_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration10_2.swift; sourceTree = "<group>"; };
+		FC3339F529E53EFC000C6C95 /* Naration11_1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration11_1View.swift; sourceTree = "<group>"; };
+		FC3339F929E53F2C000C6C95 /* Naration11_2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration11_2View.swift; sourceTree = "<group>"; };
+		FC3339FD29E53FD0000C6C95 /* Naration71View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration71View.swift; sourceTree = "<group>"; };
+		FC3339FF29E53FEB000C6C95 /* Naration71.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration71.swift; sourceTree = "<group>"; };
+		FC333A0129E540BD000C6C95 /* Naration72View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration72View.swift; sourceTree = "<group>"; };
+		FC333A0329E5413C000C6C95 /* Naration72.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration72.swift; sourceTree = "<group>"; };
+		FC333A0529E5420E000C6C95 /* Naration73View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration73View.swift; sourceTree = "<group>"; };
+		FC333A0729E5423F000C6C95 /* Naration73.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration73.swift; sourceTree = "<group>"; };
+		FC333A0929E54336000C6C95 /* Naration11_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration11_1.swift; sourceTree = "<group>"; };
+		FC333A0B29E5433E000C6C95 /* Naration11_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration11_2.swift; sourceTree = "<group>"; };
+		FC333A0D29E5443A000C6C95 /* Naration12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration12View.swift; sourceTree = "<group>"; };
+		FC333A0F29E5445B000C6C95 /* Naration12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration12.swift; sourceTree = "<group>"; };
+		FC333A1129E54512000C6C95 /* Naration13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration13View.swift; sourceTree = "<group>"; };
+		FC333A1329E54521000C6C95 /* Naration13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration13.swift; sourceTree = "<group>"; };
+		FC333A1529E54574000C6C95 /* Naration14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration14View.swift; sourceTree = "<group>"; };
+		FC333A1729E54581000C6C95 /* Naration14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration14.swift; sourceTree = "<group>"; };
+		FC333A1929E546D4000C6C95 /* Naration15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration15View.swift; sourceTree = "<group>"; };
+		FC333A1B29E546DD000C6C95 /* Naration15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration15.swift; sourceTree = "<group>"; };
+		FC333A1D29E54AEC000C6C95 /* Naration16View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration16View.swift; sourceTree = "<group>"; };
+		FC333A1F29E54B0E000C6C95 /* Naration16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration16.swift; sourceTree = "<group>"; };
+		FC333A2129E54EBA000C6C95 /* Naration17View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration17View.swift; sourceTree = "<group>"; };
+		FC333A2329E54EC2000C6C95 /* Naration17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration17.swift; sourceTree = "<group>"; };
+		FC333A2529E55607000C6C95 /* Naration18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration18.swift; sourceTree = "<group>"; };
+		FC333A2729E55611000C6C95 /* Naration18View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naration18View.swift; sourceTree = "<group>"; };
+		FC333A2E29E5586B000C6C95 /* ToiletNaration1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration1.swift; sourceTree = "<group>"; };
+		FC333A3029E62F8B000C6C95 /* ToiletNaration2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration2.swift; sourceTree = "<group>"; };
+		FC333A3229E63050000C6C95 /* ToiletNaration3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration3.swift; sourceTree = "<group>"; };
+		FC333A3429E6307F000C6C95 /* ToiletNaration4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration4.swift; sourceTree = "<group>"; };
+		FC333A3629E630E7000C6C95 /* ToiletNaration5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration5.swift; sourceTree = "<group>"; };
+		FC333A3829E6312F000C6C95 /* ToiletNaration6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration6.swift; sourceTree = "<group>"; };
+		FC333A3A29E631E7000C6C95 /* ToiletNaration7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration7.swift; sourceTree = "<group>"; };
+		FC333A3C29E6321B000C6C95 /* ToiletNaration8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration8.swift; sourceTree = "<group>"; };
+		FC333A3E29E6329C000C6C95 /* ToiletNaration9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration9.swift; sourceTree = "<group>"; };
+		FC333A4029E632D6000C6C95 /* ToiletNaration10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration10.swift; sourceTree = "<group>"; };
+		FC333A4229E63403000C6C95 /* ToiletNaration11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration11.swift; sourceTree = "<group>"; };
+		FC333A4429E63437000C6C95 /* ToiletNaration12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration12.swift; sourceTree = "<group>"; };
+		FC333A4629E63462000C6C95 /* ToiletNaration13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration13.swift; sourceTree = "<group>"; };
+		FC333A4829E634A8000C6C95 /* ToiletNaration14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration14.swift; sourceTree = "<group>"; };
+		FC333A4A29E634E3000C6C95 /* ToiletNaration15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration15.swift; sourceTree = "<group>"; };
+		FC333A5029E63547000C6C95 /* MeetingMiriel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel1.swift; sourceTree = "<group>"; };
+		FC333A5229E635AF000C6C95 /* MeetingMiriel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel2.swift; sourceTree = "<group>"; };
+		FC333A5429E63611000C6C95 /* MeetingMiriel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel3.swift; sourceTree = "<group>"; };
+		FC333A5629E63649000C6C95 /* MeetingMiriel4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel4.swift; sourceTree = "<group>"; };
+		FC333A5829E63664000C6C95 /* MeetingMiriel5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel5.swift; sourceTree = "<group>"; };
+		FC333A5A29E6367D000C6C95 /* MeetingMiriel6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel6.swift; sourceTree = "<group>"; };
+		FC333A5F29E63725000C6C95 /* ToiletNaration1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration1View.swift; sourceTree = "<group>"; };
+		FC333A6129E63894000C6C95 /* ToiletNaration2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration2View.swift; sourceTree = "<group>"; };
+		FC333A6329E63903000C6C95 /* ToiletNaration3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration3View.swift; sourceTree = "<group>"; };
+		FC333A6529E63DF0000C6C95 /* ToiletNaration4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration4View.swift; sourceTree = "<group>"; };
+		FC333A6729E63E26000C6C95 /* ToiletNaration5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration5View.swift; sourceTree = "<group>"; };
+		FC333A6929E63FE9000C6C95 /* ToiletNaration6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration6View.swift; sourceTree = "<group>"; };
+		FC333A6D29E64041000C6C95 /* ToiletNaration7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration7View.swift; sourceTree = "<group>"; };
+		FC333A6F29E640EE000C6C95 /* ToiletNaration8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration8View.swift; sourceTree = "<group>"; };
+		FC333A7129E64158000C6C95 /* ToiletNaration9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration9View.swift; sourceTree = "<group>"; };
+		FC333A7329E64185000C6C95 /* ToiletNaration10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration10View.swift; sourceTree = "<group>"; };
+		FC333A7529E64213000C6C95 /* ToiletNaration11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration11View.swift; sourceTree = "<group>"; };
+		FC333A7729E642C2000C6C95 /* ToiletNaration12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration12View.swift; sourceTree = "<group>"; };
+		FC333A7929E64325000C6C95 /* ToiletNaration13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration13View.swift; sourceTree = "<group>"; };
+		FC333A7B29E6437C000C6C95 /* ToiletNaration14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration14View.swift; sourceTree = "<group>"; };
+		FC333A7D29E643A9000C6C95 /* ToiletNaration15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletNaration15View.swift; sourceTree = "<group>"; };
+		FC333A7F29E64451000C6C95 /* MeetingMiriel1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel1View.swift; sourceTree = "<group>"; };
+		FC333A8129E64499000C6C95 /* MeetingMiriel2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel2View.swift; sourceTree = "<group>"; };
+		FC333A8329E64BBC000C6C95 /* MeetingMiriel3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel3View.swift; sourceTree = "<group>"; };
+		FC333A8529E64C0B000C6C95 /* MeetingMiriel4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel4View.swift; sourceTree = "<group>"; };
+		FC333A8729E64C40000C6C95 /* MeetingMiriel5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel5View.swift; sourceTree = "<group>"; };
+		FC333A8929E64C83000C6C95 /* MeetingMiriel6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMiriel6View.swift; sourceTree = "<group>"; };
+		FC333A8B29E64CD5000C6C95 /* ToBeContiuedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeContiuedView.swift; sourceTree = "<group>"; };
 		FC97385129DD49AA0092D89B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		FC97385329DD50DC0092D89B /* PopUpResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpResetView.swift; sourceTree = "<group>"; };
 		FCEB33E329DAADEE002045B1 /* MC1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,18 +222,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC3339C329E2B8FD000C6C95 /* Prologue View */ = {
+		FC3339C329E2B8FD000C6C95 /* Prologue */ = {
 			isa = PBXGroup;
 			children = (
-				FCEB341A29DBEE41002045B1 /* GameView.swift */,
-				FC3339C529E2B96D000C6C95 /* GameViewTwo_Monologue.swift */,
-				FC3339CD29E2C8F2000C6C95 /* NarationThreeView.swift */,
-				FC3339D129E2CF55000C6C95 /* NarationFourView.swift */,
-				FC3339D529E2D138000C6C95 /* NarationFiveView.swift */,
-				FC3339D929E2DC70000C6C95 /* NarationSixView.swift */,
-				FC3339DD29E2DD40000C6C95 /* NarationSevenView.swift */,
+				FC333A2A29E55745000C6C95 /* Prologue View */,
+				FC3339C429E2B913000C6C95 /* Prologue Naration */,
 			);
-			path = "Prologue View";
+			path = Prologue;
 			sourceTree = "<group>";
 		};
 		FC3339C429E2B913000C6C95 /* Prologue Naration */ = {
@@ -96,8 +241,164 @@
 				FC3339D329E2D0DA000C6C95 /* NarationFive.swift */,
 				FC3339D729E2DC2F000C6C95 /* NarationSix.swift */,
 				FC3339DB29E2DD19000C6C95 /* NarationSeven.swift */,
+				FC3339FF29E53FEB000C6C95 /* Naration71.swift */,
+				FC333A0329E5413C000C6C95 /* Naration72.swift */,
+				FC333A0729E5423F000C6C95 /* Naration73.swift */,
+				FC3339DF29E3DD5E000C6C95 /* NarationEight.swift */,
+				FC3339E329E5390C000C6C95 /* NarationNineChoise.swift */,
+				FC3339EF29E53E66000C6C95 /* Naration10_1.swift */,
+				FC3339F129E53E76000C6C95 /* Naration10_2.swift */,
+				FC333A0929E54336000C6C95 /* Naration11_1.swift */,
+				FC333A0B29E5433E000C6C95 /* Naration11_2.swift */,
+				FC333A0F29E5445B000C6C95 /* Naration12.swift */,
+				FC333A1329E54521000C6C95 /* Naration13.swift */,
+				FC333A1729E54581000C6C95 /* Naration14.swift */,
+				FC333A1B29E546DD000C6C95 /* Naration15.swift */,
+				FC333A1F29E54B0E000C6C95 /* Naration16.swift */,
+				FC333A2329E54EC2000C6C95 /* Naration17.swift */,
+				FC333A2529E55607000C6C95 /* Naration18.swift */,
 			);
 			path = "Prologue Naration";
+			sourceTree = "<group>";
+		};
+		FC333A2929E5570C000C6C95 /* Opening Toilet Door */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A2B29E5576C000C6C95 /* View */,
+				FC333A2C29E55778000C6C95 /* Naration */,
+			);
+			path = "Opening Toilet Door";
+			sourceTree = "<group>";
+		};
+		FC333A2A29E55745000C6C95 /* Prologue View */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB341A29DBEE41002045B1 /* GameView.swift */,
+				FC3339C529E2B96D000C6C95 /* GameViewTwo_Monologue.swift */,
+				FC3339CD29E2C8F2000C6C95 /* NarationThreeView.swift */,
+				FC3339D129E2CF55000C6C95 /* NarationFourView.swift */,
+				FC3339D529E2D138000C6C95 /* NarationFiveView.swift */,
+				FC3339D929E2DC70000C6C95 /* NarationSixView.swift */,
+				FC3339DD29E2DD40000C6C95 /* NarationSevenView.swift */,
+				FC3339FD29E53FD0000C6C95 /* Naration71View.swift */,
+				FC333A0129E540BD000C6C95 /* Naration72View.swift */,
+				FC333A0529E5420E000C6C95 /* Naration73View.swift */,
+				FC3339E129E3DDF5000C6C95 /* NarationEightView.swift */,
+				FC3339E529E53950000C6C95 /* NarationNineChoiseView.swift */,
+				FC3339E729E53CAF000C6C95 /* Naration10_1View.swift */,
+				FC3339E929E53CB8000C6C95 /* Naration10_2View.swift */,
+				FC3339F529E53EFC000C6C95 /* Naration11_1View.swift */,
+				FC3339F929E53F2C000C6C95 /* Naration11_2View.swift */,
+				FC333A0D29E5443A000C6C95 /* Naration12View.swift */,
+				FC333A1129E54512000C6C95 /* Naration13View.swift */,
+				FC333A1529E54574000C6C95 /* Naration14View.swift */,
+				FC333A1929E546D4000C6C95 /* Naration15View.swift */,
+				FC333A1D29E54AEC000C6C95 /* Naration16View.swift */,
+				FC333A2129E54EBA000C6C95 /* Naration17View.swift */,
+				FC333A2729E55611000C6C95 /* Naration18View.swift */,
+			);
+			path = "Prologue View";
+			sourceTree = "<group>";
+		};
+		FC333A2B29E5576C000C6C95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A5F29E63725000C6C95 /* ToiletNaration1View.swift */,
+				FC333A6129E63894000C6C95 /* ToiletNaration2View.swift */,
+				FC333A6329E63903000C6C95 /* ToiletNaration3View.swift */,
+				FC333A6529E63DF0000C6C95 /* ToiletNaration4View.swift */,
+				FC333A6729E63E26000C6C95 /* ToiletNaration5View.swift */,
+				FC333A6929E63FE9000C6C95 /* ToiletNaration6View.swift */,
+				FC333A6D29E64041000C6C95 /* ToiletNaration7View.swift */,
+				FC333A6F29E640EE000C6C95 /* ToiletNaration8View.swift */,
+				FC333A7129E64158000C6C95 /* ToiletNaration9View.swift */,
+				FC333A7329E64185000C6C95 /* ToiletNaration10View.swift */,
+				FC333A7529E64213000C6C95 /* ToiletNaration11View.swift */,
+				FC333A7729E642C2000C6C95 /* ToiletNaration12View.swift */,
+				FC333A7929E64325000C6C95 /* ToiletNaration13View.swift */,
+				FC333A7B29E6437C000C6C95 /* ToiletNaration14View.swift */,
+				FC333A7D29E643A9000C6C95 /* ToiletNaration15View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC333A2C29E55778000C6C95 /* Naration */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A2E29E5586B000C6C95 /* ToiletNaration1.swift */,
+				FC333A3029E62F8B000C6C95 /* ToiletNaration2.swift */,
+				FC333A3229E63050000C6C95 /* ToiletNaration3.swift */,
+				FC333A3429E6307F000C6C95 /* ToiletNaration4.swift */,
+				FC333A3629E630E7000C6C95 /* ToiletNaration5.swift */,
+				FC333A3829E6312F000C6C95 /* ToiletNaration6.swift */,
+				FC333A3A29E631E7000C6C95 /* ToiletNaration7.swift */,
+				FC333A3C29E6321B000C6C95 /* ToiletNaration8.swift */,
+				FC333A3E29E6329C000C6C95 /* ToiletNaration9.swift */,
+				FC333A4029E632D6000C6C95 /* ToiletNaration10.swift */,
+				FC333A4229E63403000C6C95 /* ToiletNaration11.swift */,
+				FC333A4429E63437000C6C95 /* ToiletNaration12.swift */,
+				FC333A4629E63462000C6C95 /* ToiletNaration13.swift */,
+				FC333A4829E634A8000C6C95 /* ToiletNaration14.swift */,
+				FC333A4A29E634E3000C6C95 /* ToiletNaration15.swift */,
+			);
+			path = Naration;
+			sourceTree = "<group>";
+		};
+		FC333A2D29E55815000C6C95 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB340329DAB50C002045B1 /* HomeView.swift */,
+				FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */,
+				FCEB341429DBA8A3002045B1 /* SettingView.swift */,
+				FC97385129DD49AA0092D89B /* AboutView.swift */,
+				FCEB341629DBD7E5002045B1 /* ProfileView.swift */,
+				FCEB341829DBD7F0002045B1 /* GalleryView.swift */,
+				FC97385329DD50DC0092D89B /* PopUpResetView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC333A4D29E63514000C6C95 /* Meeting Miriel */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A4E29E63529000C6C95 /* View */,
+				FC333A4F29E63530000C6C95 /* Naration */,
+			);
+			path = "Meeting Miriel";
+			sourceTree = "<group>";
+		};
+		FC333A4E29E63529000C6C95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A7F29E64451000C6C95 /* MeetingMiriel1View.swift */,
+				FC333A8129E64499000C6C95 /* MeetingMiriel2View.swift */,
+				FC333A8329E64BBC000C6C95 /* MeetingMiriel3View.swift */,
+				FC333A8529E64C0B000C6C95 /* MeetingMiriel4View.swift */,
+				FC333A8729E64C40000C6C95 /* MeetingMiriel5View.swift */,
+				FC333A8929E64C83000C6C95 /* MeetingMiriel6View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC333A4F29E63530000C6C95 /* Naration */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A5029E63547000C6C95 /* MeetingMiriel1.swift */,
+				FC333A5229E635AF000C6C95 /* MeetingMiriel2.swift */,
+				FC333A5429E63611000C6C95 /* MeetingMiriel3.swift */,
+				FC333A5629E63649000C6C95 /* MeetingMiriel4.swift */,
+				FC333A5829E63664000C6C95 /* MeetingMiriel5.swift */,
+				FC333A5A29E6367D000C6C95 /* MeetingMiriel6.swift */,
+			);
+			path = Naration;
+			sourceTree = "<group>";
+		};
+		FC333A5C29E636C4000C6C95 /* To be continued */ = {
+			isa = PBXGroup;
+			children = (
+				FC333A8B29E64CD5000C6C95 /* ToBeContiuedView.swift */,
+			);
+			path = "To be continued";
 			sourceTree = "<group>";
 		};
 		FCEB33DA29DAADEE002045B1 = {
@@ -120,15 +421,11 @@
 			isa = PBXGroup;
 			children = (
 				FCEB33E629DAADEE002045B1 /* MC1AppApp.swift */,
-				FCEB340329DAB50C002045B1 /* HomeView.swift */,
-				FC3339BD29DE574F000C6C95 /* InputCharacterDetailsView.swift */,
-				FCEB341429DBA8A3002045B1 /* SettingView.swift */,
-				FC97385129DD49AA0092D89B /* AboutView.swift */,
-				FCEB341629DBD7E5002045B1 /* ProfileView.swift */,
-				FCEB341829DBD7F0002045B1 /* GalleryView.swift */,
-				FC97385329DD50DC0092D89B /* PopUpResetView.swift */,
-				FC3339C429E2B913000C6C95 /* Prologue Naration */,
-				FC3339C329E2B8FD000C6C95 /* Prologue View */,
+				FC333A2D29E55815000C6C95 /* Home */,
+				FC3339C329E2B8FD000C6C95 /* Prologue */,
+				FC333A2929E5570C000C6C95 /* Opening Toilet Door */,
+				FC333A4D29E63514000C6C95 /* Meeting Miriel */,
+				FC333A5C29E636C4000C6C95 /* To be continued */,
 				FCEB33EA29DAADEF002045B1 /* Assets.xcassets */,
 				FCEB33EC29DAADEF002045B1 /* Preview Content */,
 			);
@@ -213,28 +510,103 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC333A2029E54B0E000C6C95 /* Naration16.swift in Sources */,
+				FC333A5129E63547000C6C95 /* MeetingMiriel1.swift in Sources */,
 				FC3339DE29E2DD40000C6C95 /* NarationSevenView.swift in Sources */,
+				FC333A0029E53FEB000C6C95 /* Naration71.swift in Sources */,
+				FC333A3529E6307F000C6C95 /* ToiletNaration4.swift in Sources */,
+				FC333A5529E63611000C6C95 /* MeetingMiriel3.swift in Sources */,
+				FC333A7429E64185000C6C95 /* ToiletNaration10View.swift in Sources */,
 				FC3339DC29E2DD19000C6C95 /* NarationSeven.swift in Sources */,
+				FC3339E829E53CB0000C6C95 /* Naration10_1View.swift in Sources */,
+				FC333A7A29E64325000C6C95 /* ToiletNaration13View.swift in Sources */,
+				FC333A0C29E5433E000C6C95 /* Naration11_2.swift in Sources */,
 				FC3339C829E2B982000C6C95 /* NarationTwo_Monologue.swift in Sources */,
+				FC333A1829E54581000C6C95 /* Naration14.swift in Sources */,
+				FC333A0A29E54336000C6C95 /* Naration11_1.swift in Sources */,
+				FC333A0829E5423F000C6C95 /* Naration73.swift in Sources */,
 				FCEB341729DBD7E5002045B1 /* ProfileView.swift in Sources */,
 				FC3339D829E2DC2F000C6C95 /* NarationSix.swift in Sources */,
 				FC97385429DD50DC0092D89B /* PopUpResetView.swift in Sources */,
 				FC3339CC29E2C886000C6C95 /* NarationThree.swift in Sources */,
+				FC3339F029E53E66000C6C95 /* Naration10_1.swift in Sources */,
+				FC333A4B29E634E3000C6C95 /* ToiletNaration15.swift in Sources */,
+				FC333A1229E54512000C6C95 /* Naration13View.swift in Sources */,
+				FC3339E629E53950000C6C95 /* NarationNineChoiseView.swift in Sources */,
+				FC333A1029E5445B000C6C95 /* Naration12.swift in Sources */,
+				FC3339F629E53EFC000C6C95 /* Naration11_1View.swift in Sources */,
+				FC333A6429E63903000C6C95 /* ToiletNaration3View.swift in Sources */,
 				FC3339D229E2CF55000C6C95 /* NarationFourView.swift in Sources */,
+				FC333A8229E64499000C6C95 /* MeetingMiriel2View.swift in Sources */,
+				FC333A6E29E64041000C6C95 /* ToiletNaration7View.swift in Sources */,
+				FC3339E029E3DD5E000C6C95 /* NarationEight.swift in Sources */,
+				FC333A7C29E6437C000C6C95 /* ToiletNaration14View.swift in Sources */,
+				FC333A3329E63050000C6C95 /* ToiletNaration3.swift in Sources */,
+				FC3339EA29E53CB8000C6C95 /* Naration10_2View.swift in Sources */,
 				FC3339D429E2D0DA000C6C95 /* NarationFive.swift in Sources */,
+				FC333A7E29E643A9000C6C95 /* ToiletNaration15View.swift in Sources */,
+				FC333A8629E64C0B000C6C95 /* MeetingMiriel4View.swift in Sources */,
+				FC333A0229E540BD000C6C95 /* Naration72View.swift in Sources */,
+				FC333A8C29E64CD5000C6C95 /* ToBeContiuedView.swift in Sources */,
+				FC3339E229E3DDF5000C6C95 /* NarationEightView.swift in Sources */,
+				FC333A8029E64451000C6C95 /* MeetingMiriel1View.swift in Sources */,
 				FC97385229DD49AA0092D89B /* AboutView.swift in Sources */,
 				FCEB341529DBA8A3002045B1 /* SettingView.swift in Sources */,
+				FC333A6629E63DF0000C6C95 /* ToiletNaration4View.swift in Sources */,
+				FC333A0429E5413C000C6C95 /* Naration72.swift in Sources */,
+				FC3339E429E5390C000C6C95 /* NarationNineChoise.swift in Sources */,
+				FC333A3929E6312F000C6C95 /* ToiletNaration6.swift in Sources */,
+				FC333A5929E63664000C6C95 /* MeetingMiriel5.swift in Sources */,
+				FC333A4729E63462000C6C95 /* ToiletNaration13.swift in Sources */,
+				FC333A2F29E5586B000C6C95 /* ToiletNaration1.swift in Sources */,
 				FC3339C629E2B96D000C6C95 /* GameViewTwo_Monologue.swift in Sources */,
+				FC333A1E29E54AEC000C6C95 /* Naration16View.swift in Sources */,
+				FC333A5B29E6367D000C6C95 /* MeetingMiriel6.swift in Sources */,
+				FC333A3B29E631E7000C6C95 /* ToiletNaration7.swift in Sources */,
+				FC333A1C29E546DD000C6C95 /* Naration15.swift in Sources */,
+				FC333A8429E64BBC000C6C95 /* MeetingMiriel3View.swift in Sources */,
+				FC333A1629E54574000C6C95 /* Naration14View.swift in Sources */,
+				FC333A2229E54EBA000C6C95 /* Naration17View.swift in Sources */,
 				FCEB340429DAB50C002045B1 /* HomeView.swift in Sources */,
+				FC333A2829E55611000C6C95 /* Naration18View.swift in Sources */,
+				FC333A6829E63E26000C6C95 /* ToiletNaration5View.swift in Sources */,
+				FC333A0E29E5443A000C6C95 /* Naration12View.swift in Sources */,
+				FC333A8829E64C40000C6C95 /* MeetingMiriel5View.swift in Sources */,
+				FC3339FE29E53FD0000C6C95 /* Naration71View.swift in Sources */,
+				FC333A1429E54521000C6C95 /* Naration13.swift in Sources */,
+				FC333A5729E63649000C6C95 /* MeetingMiriel4.swift in Sources */,
+				FC333A0629E5420E000C6C95 /* Naration73View.swift in Sources */,
 				FC3339DA29E2DC70000C6C95 /* NarationSixView.swift in Sources */,
+				FC333A2629E55607000C6C95 /* Naration18.swift in Sources */,
+				FC333A7829E642C2000C6C95 /* ToiletNaration12View.swift in Sources */,
+				FC333A3F29E6329C000C6C95 /* ToiletNaration9.swift in Sources */,
 				FC3339C029DEBA2A000C6C95 /* Naration.swift in Sources */,
+				FC333A6229E63894000C6C95 /* ToiletNaration2View.swift in Sources */,
+				FC333A4529E63437000C6C95 /* ToiletNaration12.swift in Sources */,
+				FC333A6029E63725000C6C95 /* ToiletNaration1View.swift in Sources */,
+				FC333A6A29E63FE9000C6C95 /* ToiletNaration6View.swift in Sources */,
 				FCEB33E729DAADEE002045B1 /* MC1AppApp.swift in Sources */,
+				FC333A7029E640EE000C6C95 /* ToiletNaration8View.swift in Sources */,
 				FC3339D629E2D138000C6C95 /* NarationFiveView.swift in Sources */,
 				FC3339D029E2CEB4000C6C95 /* NarationFour.swift in Sources */,
 				FCEB341B29DBEE41002045B1 /* GameView.swift in Sources */,
+				FC333A8A29E64C83000C6C95 /* MeetingMiriel6View.swift in Sources */,
+				FC3339FA29E53F2C000C6C95 /* Naration11_2View.swift in Sources */,
+				FC333A3729E630E7000C6C95 /* ToiletNaration5.swift in Sources */,
 				FC3339CE29E2C8F2000C6C95 /* NarationThreeView.swift in Sources */,
+				FC333A2429E54EC2000C6C95 /* Naration17.swift in Sources */,
+				FC333A4329E63403000C6C95 /* ToiletNaration11.swift in Sources */,
 				FC3339BE29DE574F000C6C95 /* InputCharacterDetailsView.swift in Sources */,
 				FCEB341929DBD7F0002045B1 /* GalleryView.swift in Sources */,
+				FC333A5329E635AF000C6C95 /* MeetingMiriel2.swift in Sources */,
+				FC333A7229E64158000C6C95 /* ToiletNaration9View.swift in Sources */,
+				FC3339F229E53E76000C6C95 /* Naration10_2.swift in Sources */,
+				FC333A4929E634A8000C6C95 /* ToiletNaration14.swift in Sources */,
+				FC333A7629E64213000C6C95 /* ToiletNaration11View.swift in Sources */,
+				FC333A3D29E6321B000C6C95 /* ToiletNaration8.swift in Sources */,
+				FC333A1A29E546D4000C6C95 /* Naration15View.swift in Sources */,
+				FC333A3129E62F8B000C6C95 /* ToiletNaration2.swift in Sources */,
+				FC333A4129E632D6000C6C95 /* ToiletNaration10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

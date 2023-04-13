@@ -1,23 +1,23 @@
 //
-//  NarationSevenView.swift
+//  Naration10_2.swift
 //  MC1App
 //
-//  Created by Michael Wijaya Sutrisna on 09/04/23.
+//  Created by Michael Wijaya Sutrisna on 11/04/23.
 //
 
 import SwiftUI
 
-struct NarationSevenView: View {
+struct Naration10_2View: View {
     @State private var isActive = false
     @State private var counter = 0
     
     var body: some View {
         NavigationView{
-            let story = NarationSeven()
+            let story = Naration10_2()
             
             VStack{
                 if isActive{
-                    HomeView()
+                    Naration11_2View()
                     
                 } else {
                     
@@ -26,7 +26,7 @@ struct NarationSevenView: View {
                         
                     } label: {
                         ZStack{
-                            Image("toplessboy")
+                            Image("coolboy")
                                 .resizable()
                                 .scaledToFill()
                                 .ignoresSafeArea()
@@ -36,7 +36,7 @@ struct NarationSevenView: View {
                                 
                                 VStack{
                                     
-                                    Text("-- Adolf --")
+                                    Text("-- John --")
                                         .foregroundColor(.white)
                                     
                                     Text(story.Story[counter])
@@ -72,8 +72,8 @@ struct NarationSevenView: View {
     }
 }
 
-struct NarationSevenView_Previews: PreviewProvider {
+struct Naration10_2_Previews: PreviewProvider {
     static var previews: some View {
-        NarationSevenView()
+        Naration10_2View()
     }
 }
